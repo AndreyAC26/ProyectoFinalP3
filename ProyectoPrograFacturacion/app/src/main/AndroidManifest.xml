@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyectoprografacturacion">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Sistema de Facturacion"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoPrograFacturacion">
+        <activity
+            android:name=".PagosRealizadosActivity"
+            android:label="Pagos Realizados" />
+        <activity
+            android:name=".PagosActivity"
+            android:label="Metodo de pago" />
+        <activity
+            android:name=".MostradorDeFacturasActivity"
+            android:label="Informacion  de la factura" />
+        <activity
+            android:name=".ListaDeFacturasActivity"
+            android:label="Facturas pendientes del cliente" />
+        <activity
+            android:name=".AgregarFacturasActivity"
+            android:label="Datos de la factura" />
+        <activity
+            android:name=".ActualizarDatosActivity"
+            android:label="Actualizar Datos" />
+        <activity
+            android:name=".MostradorDeDatosActivity"
+            android:label="Mi Cliente" />
+        <activity
+            android:name=".ListaDeClientesActivity"
+            android:label="Mis Clientes" />
+        <activity
+            android:name=".AgregarClienteActivity"
+            android:label="Agregar Clientes" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Facturacion">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

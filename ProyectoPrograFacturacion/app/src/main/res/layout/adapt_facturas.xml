@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:backgroundTint="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/txtAdapFactNumfact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero de Factura"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAdapFactFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        />
+
+    <TextView
+        android:id="@+id/txtAdapFactFechaVence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de vencimiento"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAdapFactMonto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monto"
+        />
+    <TextView
+        android:id="@+id/txtadapSFactPago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pago"
+        />
+
+    <TextView
+        android:id="@+id/txtadapSFactsaldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saldo"/>
+
+    <TextView
+        android:id="@+id/txtAdapfactEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado" />
+
+</LinearLayout>

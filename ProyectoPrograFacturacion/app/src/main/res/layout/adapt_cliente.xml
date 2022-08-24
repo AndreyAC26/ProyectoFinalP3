@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:backgroundTint="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+
+    <TextView
+        android:id="@+id/txtAdapIdCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent" />
+
+
+    <TextView
+        android:id="@+id/txtAdapNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAdapCed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cedula" />
+
+    <TextView
+        android:id="@+id/txtAdapCel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefono"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAdapEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo" />
+
+    <TextView
+        android:id="@+id/txtadapSaldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saldo" />
+
+
+</LinearLayout>

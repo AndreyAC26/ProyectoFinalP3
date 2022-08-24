@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.realm.MainActivity">
+    <item
+        android:id="@+id/menu_eliminarcliente"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Eliminar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_ver"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Ver Datos"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_act"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Actualizar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_agregar"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Agregar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_regresar"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Regresar"
+        app:showAsAction="always" />
+
+</menu>
